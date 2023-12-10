@@ -29,6 +29,29 @@ public class JavaSweeper extends JFrame {
         loginMenu.setVisible(true);
     }
 
+    public Game getGame() {
+        return game;
+    }
+
+    public void setGame(Game game) {
+        this.game = game;
+    }
+
+    // Геттер для таймера
+    public Timer getTimer() {
+        return timer;
+    }
+
+    // Геттер для времени
+    public int getTime() {
+        return time;
+    }
+
+    // Сеттер для времени
+    public void setTime(int time) {
+        this.time = time;
+    }
+
     public JavaSweeper(int cols, int rows, int bombs, String name) {
         COLS = cols;
         ROWS = rows;
@@ -63,7 +86,7 @@ public class JavaSweeper extends JFrame {
         startTimer();
     }
 
-    private void startTimer() {
+     void startTimer() {
         timer = new Timer(1000, new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {

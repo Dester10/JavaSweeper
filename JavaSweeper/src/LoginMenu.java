@@ -142,7 +142,7 @@ public class LoginMenu extends JFrame {
         colsField.setText(String.valueOf(randomCols));
 
         // Заполнение имени пользователя случайным именем или згачением
-        String[] randomNames = {"Bob, Ivan, John, Arnold, Alex, Jimmy"};
+        String[] randomNames = {"Bob", "Ivan", "John", "Arnold", "Alex", "Jimmy", "Maxim", "Michael", "Nikita", "Arseny", "Daniel"};
         String randomName = randomNames[(int) (Math.random() * randomNames.length)];
         nameField.setText(randomName);
     }
