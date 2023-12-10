@@ -30,13 +30,9 @@ bin/
 ### Mac OS ###
 res/database/.DS_Store
 res/.DS_Store
-.DS_Store
-/*..*/.DS_Store
-../.DS_Store
-../JavaSweeper.zip
-Saper.zip
 Dockerfile
 JavaSweeper.iml
 src/.DS_Store
 .dockerignore
 .idea/
+*.DS_Store
